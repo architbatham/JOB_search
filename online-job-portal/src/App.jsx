@@ -1,13 +1,14 @@
-
+import Navbar from "./components/Navbar"
+import Header from "./components/Header"
+import searchBar from "./components/SearchBar"
 
 function App() {
   
   return (
-    <>
       <div>
-        <h1 className='bg-blue-500 text-black text-3xl'>Online Job Portal</h1>
+        <Navbar />
+        <Header />
       </div>
-    </>
   )
 }
 
